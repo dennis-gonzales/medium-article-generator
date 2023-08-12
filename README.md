@@ -49,3 +49,12 @@ e.g. `python <python-version> (conda) .\env\python.exe`
 ### Installing ChromaDB
 
 If you received an error `ERROR: Could not build wheels for chroma-hnswlib, which is required to install pyproject.toml-based projects` check [HERE](https://github.com/chroma-core/chroma/issues/189#issuecomment-1454418844).
+
+## Extra
+
+### Agents
+
+```bash
+python agent.py
+# When did the titanic sank? how many years has it been since then? how many people who survived? multiply these two values together.
+```
