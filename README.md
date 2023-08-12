@@ -2,6 +2,22 @@
 
 Medium Article Generator Built with Langchain and LLM's (ChatGPT, GPT-4, etc)
 
+## Getting Started
+
+```bash
+conda create --prefix ./env jupyter
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+### Commands Used for Setting up the Project
+
+```bash
+pip install python-dotenv streamlit langchain openai wikipedia chromadb tiktoken pipreqs
+```
+
 ## Activate
 
 ```bash
@@ -29,13 +45,6 @@ streamlit run app.py
 
 ```bash
 conda deactivate
-```
-
-## Commands Used for Setting up the Project
-
-```bash
-conda create --prefix ./env jupyter
-pip install python-dotenv streamlit langchain openai wikipedia chromadb tiktoken
 ```
 
 ## Troubleshooting
