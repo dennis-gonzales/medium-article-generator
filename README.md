@@ -59,6 +59,15 @@ e.g. `python <python-version> (conda) .\env\python.exe`
 
 If you received an error `ERROR: Could not build wheels for chroma-hnswlib, which is required to install pyproject.toml-based projects` check [HERE](https://github.com/chroma-core/chroma/issues/189#issuecomment-1454418844).
 
+### Adding Path
+
+```sh
+# ~/.bashrc or ~/.zshrc
+export PATH=$PATH:~/.local/bin
+```
+
+The `export PATH=$PATH:~/.local/bin` command adds the `~/.local/bin` directory to the list of places your system looks for executable programs. This allows you to run programs installed in `~/.local/bin` directly from the terminal.
+
 ## Extra
 
 ### Agents
